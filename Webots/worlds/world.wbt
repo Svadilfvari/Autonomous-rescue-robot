@@ -1,0 +1,30 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.18049422256489417 -0.913156621258085 -0.36546794753194534 2.3108542572141717
+  position -2.7042447788476967 5.495667596987355 -5.871094918485113
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+  floorTileSize 1 1
+  wallThickness 0.05
+  wallHeight 0.5
+}
+WoodenBox {
+  translation 0 0.3 2.14
+}
+Pioneer2 {
+  hidden position_0_0 280.87579675675346
+  hidden position_0_1 306.4584994594535
+  hidden rotation_1 1 0 0 0.825189959148345
+  hidden rotation_2 -1 0 0 3.9429184848333407
+  translation 1.8133012542251286 0 2.299622698648016
+  rotation 0 1 0 4.282670183134528
+  controller "compass_example"
+}
